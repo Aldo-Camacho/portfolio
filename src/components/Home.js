@@ -14,9 +14,11 @@ function Home() {
             <Typography variant="h4">Full-Stack Software Engineer</Typography>
             <Typography variant="body1">I'm a pasionate engineer who wants to help people program their dreams</Typography>
             <Typography variant="body1">Do you have any idea but don't know how to make it happen? I can program it for you!</Typography>
-            <Box sx={{textAlign:"left", paddingTop: 8}}>
-                <Typography variant="h6" sx={{ paddingLeft: 2 }}>My Skills:</Typography>
+            <Box sx={{display:"flex", justifyContent: "left", paddingTop: 8}}>
                 <List>
+                    <ListItem key={"header"}>
+                        <Typography variant="h6">My Skills:</Typography>
+                    </ListItem>
                     <ListItem key={0}>
                         <JavaIcon/>
                         <Typography variant="body1">Java</Typography>

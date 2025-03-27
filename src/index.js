@@ -80,6 +80,22 @@ const theme = createTheme({
         }
       }
     },
+    MuiImageListItemBar: {
+      styleOverrides: {
+        root: {
+          color: "white",
+          width: "100%",
+          backgroundColor:"rgba(0, 0, 0, 0.5)",
+        }
+      }
+    },
+    MuiListItem: {
+      styleOverrides: {
+        root: {
+          gap: 8,
+        }
+      }
+    }
   },
 });
 

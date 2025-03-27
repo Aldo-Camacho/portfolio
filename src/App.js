@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
@@ -19,6 +19,7 @@ function App() {
           <Route path='/projects/:id' element={ <Project/> }/>
           <Route path='/about' element={ <About/> }/>
           <Route path='/contact' element={ <Contact/> }/>
+          <Route path="*" element={ <Navigate to="/" /> }/>
         </Routes>
         <Footer/>
       </Router>

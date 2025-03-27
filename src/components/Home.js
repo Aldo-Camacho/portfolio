@@ -7,7 +7,7 @@ import PythonIcon from "./icons/PythonIcon";
 import PyTorchIcon from "./icons/PyTorchIcon";
 import KotlinIcon from "./icons/KotlinIcon";
 
-function Home(props) {
+function Home() {
     return(
         <Box>
             <Typography variant="h2">Aldo Camacho</Typography>
@@ -15,7 +15,7 @@ function Home(props) {
             <Typography variant="body1">I'm a pasionate engineer who wants to help people program their dreams</Typography>
             <Typography variant="body1">Do you have any idea but don't know how to make it happen? I can program it for you!</Typography>
             <Box sx={{textAlign:"left", paddingTop: 8}}>
-                <Typography variant="h6">My Skills:</Typography>
+                <Typography variant="h6" sx={{ paddingLeft: 2 }}>My Skills:</Typography>
                 <List>
                     <ListItem key={0}>
                         <JavaIcon/>

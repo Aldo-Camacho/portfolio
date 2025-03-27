@@ -14,7 +14,7 @@ function Footer() {
                     <LinkedInIcon/>
                 </IconButton>
                 <IconButton href="https://tryhackme.com/p/camaccio">
-                    <THMIcon/>
+                    <THMIcon />
                 </IconButton>
             </BottomNavigation>
         </Paper>

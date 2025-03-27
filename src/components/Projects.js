@@ -13,13 +13,13 @@ function Projects() {
                     projects.map(project => { 
                         return (
                             <Button component={Link} to={`/projects/${project.id}`} key={project.project}>
-                            <ImageListItem key={project.project}>
+                            <ImageListItem key={project.project} sx={{ boxShadow:3 }}>
                                 <img 
-                                    style={{ height: "25rem", width: "25rem", objectFit: "contain"}}
+                                    style={{ height: "100%", width: "25rem", objectFit: "contain" }}
                                     src={assets(`./${project.img}`)}
                                     alt={project.description}
                                 />
-                                <ImageListItemBar title={project.project} subtitle={project.dates} />
+                                <ImageListItemBar position="below" title={project.project} subtitle={project.dates} />
                             </ImageListItem>
                             </Button>
                         );        

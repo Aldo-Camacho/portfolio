@@ -11,6 +11,13 @@
         "dates": "2022 - 2022",
         "project": "Fundacion Jala",
         "description": "A Full Stack Development Specialization in which I worked on an internal project for Fundacion Jala. I developed a Micro Frontend with React JS using Material UI and a MicroServices based backend with SpringBoot in Java",
-        "img": "jalasoftlogo.png"  
+        "img": "fundacionjalalogo.png"  
+    },
+    {
+        "id":2,
+        "dates": "2022 - 2022",
+        "project": "Tic-Tac-Toe",
+        "description": "A Small Tic-Tac-Toe implementation done during my Fundacion Jala type. Mainly done to play with CSS. (I agree, It's ugly)",
+        "img": "tic-tac-toe.png"  
     }
 ]

@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/portfolio/static/js/main.f95ddb03.js",
-    "static/js/453.c44a0ee9.chunk.js": "/portfolio/static/js/453.c44a0ee9.chunk.js",
-    "static/media/logo.png": "/portfolio/static/media/logo.b6c56a15aa9c2ac92349.png",
-    "static/media/favicon-96x96.png": "/portfolio/static/media/favicon-96x96.59b4c7478192c3ea1f47.png",
-    "static/media/jalasoftlogo.png": "/portfolio/static/media/jalasoftlogo.71c660994d28dd5f3af8.png",
-    "index.html": "/portfolio/index.html",
-    "main.e6c13ad2.css.map": "/portfolio/static/css/main.e6c13ad2.css.map",
-    "main.f95ddb03.js.map": "/portfolio/static/js/main.f95ddb03.js.map",
-    "453.c44a0ee9.chunk.js.map": "/portfolio/static/js/453.c44a0ee9.chunk.js.map"
+    "main.css": "/static/css/main.e6c13ad2.css",
+    "main.js": "/static/js/main.ac27e671.js",
+    "static/js/453.c44a0ee9.chunk.js": "/static/js/453.c44a0ee9.chunk.js",
+    "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.47879bc0fcd19ed2d005.png",
+    "static/media/logo.png": "/static/media/logo.b6c56a15aa9c2ac92349.png",
+    "static/media/fundacionjalalogo.png": "/static/media/fundacionjalalogo.1fab933c86576c860381.png",
+    "static/media/jalasoftlogo.png": "/static/media/jalasoftlogo.10902c117c973de58268.png",
+    "static/media/favicon-96x96.png": "/static/media/favicon-96x96.59b4c7478192c3ea1f47.png",
+    "index.html": "/index.html",
+    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
+    "main.ac27e671.js.map": "/static/js/main.ac27e671.js.map",
+    "453.c44a0ee9.chunk.js.map": "/static/js/453.c44a0ee9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.f95ddb03.js"
+    "static/js/main.ac27e671.js"
   ]
 }

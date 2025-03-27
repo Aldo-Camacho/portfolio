@@ -1,10 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { ThemeProvider } from '@emotion/react';
-import { createTheme } from '@mui/material';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { ThemeProvider } from "@emotion/react";
+import { createTheme } from "@mui/material";
 
 const theme = createTheme({
   palette: {
@@ -32,19 +32,19 @@ const theme = createTheme({
             {
               props: { variant: "biglink"},
               style: {
-                fontSize: '2rem',
-                gap: '1rem',
+                fontSize: "2rem",
+                gap: "1rem",
               }
             }
           ],
-          fontSize: '1rem',
+          fontSize: "1rem",
         }
       }
     },
     MuiToolbar: {
       styleOverrides: {
         root: {
-          justifyContent: 'space-between',
+          justifyContent: "space-between",
           paddingLeft: 8,
           paddingRight: 8,
           paddingTop: 8,
@@ -55,9 +55,9 @@ const theme = createTheme({
     MuiBottomNavigation: {
       styleOverrides: {
         root: {
-          backgroundColor: 'transparent',
-          fontSize: 'large',
-          justifyContent: 'left',
+          backgroundColor: "transparent",
+          fontSize: "large",
+          justifyContent: "left",
           paddingLeft: 16,
           paddingBottom: 8,
         }
@@ -66,8 +66,8 @@ const theme = createTheme({
     MuiPaper: {
       styleOverrides: {
         root: {
-          backgroundColor: 'transparent',
-          position: 'fixed',
+          backgroundColor: "transparent",
+          position: "fixed",
           bottom: 0,
           left: 0,
         }
@@ -76,14 +76,14 @@ const theme = createTheme({
     MuiImageListItem: {
       styleOverrides: {
         root: {
-          alignItems: 'center',
+          alignItems: "center",
         }
       }
     },
   },
-})
+});
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>

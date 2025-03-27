@@ -5,7 +5,7 @@ function Contact() {
         <Box>
             <Typography variant="h2">Contact me</Typography>
         </Box>
-    )
+    );
 }
 
 export default Contact;

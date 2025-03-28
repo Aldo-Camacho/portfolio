@@ -1,7 +1,8 @@
-import { Box, Typography } from "@mui/material";
 import React from "react";
+import { Box, Button, Card, CardMedia, Link, Typography } from "@mui/material";
 import { useParams } from "react-router-dom";
 import projects from "./data/projects.json";
+import Carousel from "./Carousel";
 
 function Project() {
     const {id} = useParams();
@@ -12,8 +13,22 @@ function Project() {
         <Box>
             <Typography variant="h2">{project.project}</Typography>
             <Typography variant="h6">{project.dates}</Typography>
-            <Box sx={{  width: "25rem" }} component="img" alt={`Images representing the work done in project ${project.project}`} src={assets(`./${project.img}`)}></Box>
+            <Box sx={{ display: "flex", justifyContent:"center", alignContent: "center", height: "25rem", width: "80vw", margin:"auto", padding: 4 }}>
+                <Carousel showMultiple={project.img.length > 1}>
+                { project.img.map( image => (
+                    <Card key={project.project}>
+                        <CardMedia
+                            component="img"
+                            image={assets(`./${image}`)}
+                            sx= {{ maxHeight: "25rem", margin: "auto", objectFit:"contain", }}
+                            alt={`Images representing the work done in project ${project.project}`}
+                        />
+                    </Card>
+                    )) }
+                </Carousel>
+            </Box>
             <Typography variant="body1">{project.description}</Typography>
+            { project.url && <Button sx={{ backgroundColor: "#EA15C6", boxShadow: 3, margin: "1rem" }} component={Link} href={ project.url } color={"white"}>Try it out!</Button>}
         </Box>
     );
 }

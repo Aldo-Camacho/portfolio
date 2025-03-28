@@ -1,7 +1,8 @@
+import React from "react";
 import { AppBar, Box, Button, Toolbar } from "@mui/material";
 import { Link } from "react-router-dom";
 import Nav from "./Nav";
-import imgsrc from "../assets/logo.png";
+import imgsrc from "../assets/AldiBearLogo_3D.png";
 
 function Header() {
     return (

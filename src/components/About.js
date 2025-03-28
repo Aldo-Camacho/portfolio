@@ -1,3 +1,4 @@
+import React from "react";
 import { Box, List, ListItem, Typography } from "@mui/material";
 
 function About() {

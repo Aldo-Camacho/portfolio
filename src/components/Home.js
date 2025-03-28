@@ -1,3 +1,4 @@
+import React from "react";
 import { Box, List, ListItem, Typography } from "@mui/material";
 import { Javascript, Android } from "@mui/icons-material";
 import ReactIcon from "./icons/ReactIcon";

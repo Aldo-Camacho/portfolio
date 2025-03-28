@@ -1,3 +1,4 @@
+import React from "react";
 import { BottomNavigation, IconButton, Paper } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";

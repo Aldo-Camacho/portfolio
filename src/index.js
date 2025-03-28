@@ -80,11 +80,18 @@ const theme = createTheme({
         }
       }
     },
-    MuiImageListItemBar: {
+    MuiCardContent: {
       styleOverrides: {
         root: {
           color: "white",
-          width: "100%",
+          backgroundColor:"rgba(0, 0, 0, 0.5)",
+        }
+      }
+    },
+    MuiCardActions: {
+      styleOverrides: {
+        root: {
+          color: "white",
           backgroundColor:"rgba(0, 0, 0, 0.5)",
         }
       }

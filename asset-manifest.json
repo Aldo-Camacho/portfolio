@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/portfolio/static/js/main.8f87bc7b.js",
+    "main.css": "/portfolio/static/css/main.93a0497a.css",
+    "main.js": "/portfolio/static/js/main.8aca6d64.js",
     "static/js/453.c44a0ee9.chunk.js": "/portfolio/static/js/453.c44a0ee9.chunk.js",
     "static/media/AldiBearLogo_3D.svg": "/portfolio/static/media/AldiBearLogo_3D.c467e744587cb5118d5f.svg",
     "static/media/tic-tac-toe-2p.png": "/portfolio/static/media/tic-tac-toe-2p.fced1a512cf4b40382ed.png",
@@ -11,17 +11,21 @@
     "static/media/tic-tac-toe.png": "/portfolio/static/media/tic-tac-toe.a9f0d79f422a9ecb73c5.png",
     "static/media/logo.png": "/portfolio/static/media/logo.b6c56a15aa9c2ac92349.png",
     "static/media/AldiBearLogo_plano.png": "/portfolio/static/media/AldiBearLogo_plano.95915341fe36080f90d3.png",
+    "static/media/period-record.png": "/portfolio/static/media/period-record.77b79b06a4334858f54e.png",
+    "static/media/period-records.png": "/portfolio/static/media/period-records.8c2f3b176a45e07025c0.png",
+    "static/media/period-start.png": "/portfolio/static/media/period-start.4dafb30c575f120f6066.png",
+    "static/media/period-calendar.png": "/portfolio/static/media/period-calendar.99fd95954cbc8bf24788.png",
     "static/media/AldiBearLogo_plano.svg": "/portfolio/static/media/AldiBearLogo_plano.ebee06d92ec4c8f2fa06.svg",
     "static/media/fundacionjalalogo.png": "/portfolio/static/media/fundacionjalalogo.1fab933c86576c860381.png",
     "static/media/jalasoftlogo.png": "/portfolio/static/media/jalasoftlogo.10902c117c973de58268.png",
     "static/media/favicon-96x96.png": "/portfolio/static/media/favicon-96x96.59b4c7478192c3ea1f47.png",
     "index.html": "/portfolio/index.html",
-    "main.e6c13ad2.css.map": "/portfolio/static/css/main.e6c13ad2.css.map",
-    "main.8f87bc7b.js.map": "/portfolio/static/js/main.8f87bc7b.js.map",
+    "main.93a0497a.css.map": "/portfolio/static/css/main.93a0497a.css.map",
+    "main.8aca6d64.js.map": "/portfolio/static/js/main.8aca6d64.js.map",
     "453.c44a0ee9.chunk.js.map": "/portfolio/static/js/453.c44a0ee9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.8f87bc7b.js"
+    "static/css/main.93a0497a.css",
+    "static/js/main.8aca6d64.js"
   ]
 }

@@ -102,6 +102,15 @@ const theme = createTheme({
           gap: 8,
         }
       }
+    },
+    MuiMenu: {
+      styleOverrides: {
+        paper: {
+          height: "fit-content",
+          background: "linear-gradient(135deg, rgba(234,21,198,1) 0%, rgba(21,198,234,1) 50%, rgba(198,234,21,1) 100%);",
+          color: "black",
+        }
+      }
     }
   },
 });

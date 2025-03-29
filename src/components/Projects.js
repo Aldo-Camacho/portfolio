@@ -11,14 +11,14 @@ function Projects() {
         <Box>
             <Typography variant="h2">My projects</Typography>
             <Box sx={{paddingTop:10}}>
-            <Carousel showMultiple={true} >
+            <Carousel showMultiple={true} height={50}>
                 { projects.map( project => (
                     <Card key={project.project}>
-                        <Button component={Link} to={`/projects/${project.id}`}>
+                        <Button sx={{ margin: "auto" }} component={Link} to={`/projects/${project.id}`}>
                         <CardMedia
                             component="img"
                             image={assets(`./${project.img[0]}`)}
-                            sx= {{ maxHeight: "15rem",margin: "auto", objectFit: "contain" }}
+                            sx= {{ width: "100%", margin: "auto", objectFit: "contain" }}
                             alt={`Images representing the work done in project ${project.project}`}
                         />
                         </Button>
@@ -29,6 +29,9 @@ function Projects() {
                             </Typography>
                             <Typography color="white" variant="body1" >
                             {project.dates}
+                            </Typography>
+                            <Typography color="white" variant="body1" >
+                            {project.shortDescription}
                             </Typography>
                         </CardContent>
                         <CardActions>

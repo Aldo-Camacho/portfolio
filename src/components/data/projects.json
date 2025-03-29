@@ -3,20 +3,23 @@
         "id": 0,
         "dates": "2022 - Present",
         "project": "Jalasoft",
-        "description": "I worked in a E-Procurement Web Application. This project was outsourced to Jalasoft and I was one of the engineers assigned to that team.", 
+        "shortDescription": "I work in an outsourced project at the Jalasoft Company",
+        "description": "I worked in a E-Procurement Web Application. This project was outsourced to Jalasoft and I was one of the engineers assigned to that team. Sadly, I cannot add images of this project due to an NDA", 
         "img": ["jalasoftlogo.png"]
     },
     {
         "id":1,
         "dates": "2022 - 2022",
         "project": "Fundacion Jala",
-        "description": "A Full Stack Development Specialization in which I worked on an internal project for Fundacion Jala. I developed a Micro Frontend with React JS using Material UI and a MicroServices based backend with SpringBoot in Java",
+        "shortDescription": "I took a Comertial Software Development Specialization",
+        "description": "A Comertial Software Development Specialization in which I worked on an internal project for Fundacion Jala. I developed a Micro Frontend with React JS using Material UI and a MicroServices based backend with SpringBoot in Java. Sadly, I cannot add images of this project due to an NDA",
         "img": ["fundacionjalalogo.png"]  
     },
     {
         "id":2,
         "dates": "2022 - 2022",
         "project": "Tic-Tac-Toe",
+        "shortDescription": "A small and badly coded Tic-tac-toe game for browser",
         "description": "A Small Tic-Tac-Toe implementation done during my Fundacion Jala type. Mainly done to play with CSS. (I agree, It's ugly)",
         "img": ["tic-tac-toe.png", "tic-tac-toe-1p.png", "tic-tac-toe-2p.png", "tic-tac-toe-custom-board.png"],
         "url": "http://aldo-camacho.github.io/tic-tac-toe"

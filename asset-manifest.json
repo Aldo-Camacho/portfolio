@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.93a0497a.css",
-    "main.js": "/portfolio/static/js/main.59ac1134.js",
+    "main.js": "/portfolio/static/js/main.379aaef2.js",
     "static/js/453.c44a0ee9.chunk.js": "/portfolio/static/js/453.c44a0ee9.chunk.js",
-    "static/media/rustup-init.exe": "/portfolio/static/media/rustup-init.2004531e7b05334db19d.exe",
     "static/media/AldiBearLogo_3D.svg": "/portfolio/static/media/AldiBearLogo_3D.c467e744587cb5118d5f.svg",
     "static/media/tic-tac-toe-2p.png": "/portfolio/static/media/tic-tac-toe-2p.fced1a512cf4b40382ed.png",
     "static/media/AldiBearLogo_3D.png": "/portfolio/static/media/AldiBearLogo_3D.4227ba64c0f1561405e6.png",
@@ -11,22 +10,26 @@
     "static/media/tic-tac-toe-custom-board.png": "/portfolio/static/media/tic-tac-toe-custom-board.8415aa10957cea12fffa.png",
     "static/media/tic-tac-toe.png": "/portfolio/static/media/tic-tac-toe.a9f0d79f422a9ecb73c5.png",
     "static/media/logo.png": "/portfolio/static/media/logo.b6c56a15aa9c2ac92349.png",
+    "static/media/tic-tac-toe-thumbnail.png": "/portfolio/static/media/tic-tac-toe-thumbnail.b3775686e3af5acf196c.png",
     "static/media/AldiBearLogo_plano.png": "/portfolio/static/media/AldiBearLogo_plano.95915341fe36080f90d3.png",
     "static/media/period-record.png": "/portfolio/static/media/period-record.77b79b06a4334858f54e.png",
     "static/media/period-records.png": "/portfolio/static/media/period-records.8c2f3b176a45e07025c0.png",
     "static/media/period-start.png": "/portfolio/static/media/period-start.4dafb30c575f120f6066.png",
     "static/media/period-calendar.png": "/portfolio/static/media/period-calendar.99fd95954cbc8bf24788.png",
+    "static/media/pytorch-logo.svg": "/portfolio/static/media/pytorch-logo.d6cccf6b3ad3cca0a6f0.svg",
     "static/media/AldiBearLogo_plano.svg": "/portfolio/static/media/AldiBearLogo_plano.ebee06d92ec4c8f2fa06.svg",
     "static/media/fundacionjalalogo.png": "/portfolio/static/media/fundacionjalalogo.1fab933c86576c860381.png",
+    "static/media/period-thumbnail.png": "/portfolio/static/media/period-thumbnail.73d94bedfa825a61d9f2.png",
+    "static/media/pytorch-logo.png": "/portfolio/static/media/pytorch-logo.650a4ffdf692d2b53ed2.png",
     "static/media/jalasoftlogo.png": "/portfolio/static/media/jalasoftlogo.10902c117c973de58268.png",
     "static/media/favicon-96x96.png": "/portfolio/static/media/favicon-96x96.59b4c7478192c3ea1f47.png",
     "index.html": "/portfolio/index.html",
     "main.93a0497a.css.map": "/portfolio/static/css/main.93a0497a.css.map",
-    "main.59ac1134.js.map": "/portfolio/static/js/main.59ac1134.js.map",
+    "main.379aaef2.js.map": "/portfolio/static/js/main.379aaef2.js.map",
     "453.c44a0ee9.chunk.js.map": "/portfolio/static/js/453.c44a0ee9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93a0497a.css",
-    "static/js/main.59ac1134.js"
+    "static/js/main.379aaef2.js"
   ]
 }

@@ -33,7 +33,6 @@ const theme = createTheme({
               props: { variant: "biglink"},
               style: {
                 fontSize: "2rem",
-                gap: "1rem",
               }
             }
           ],
@@ -109,6 +108,13 @@ const theme = createTheme({
           height: "fit-content",
           background: "linear-gradient(135deg, rgba(234,21,198,1) 0%, rgba(21,198,234,1) 50%, rgba(198,234,21,1) 100%);",
           color: "black",
+        }
+      }
+    },
+    MuiList: {
+      styleOverrides: {
+        root: {
+          padding: 0,
         }
       }
     }

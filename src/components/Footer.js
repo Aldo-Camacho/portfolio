@@ -6,7 +6,7 @@ import THMIcon from "./icons/THMIcon";
 
 function Footer() {
     return (
-        <Paper elevation={0}>
+        <Paper elevation={0} sx={{ maxHeight: "10vh" }}>
             <BottomNavigation>
                 <IconButton href="https://github.com/Aldo-Camacho">
                     <GitHubIcon/>

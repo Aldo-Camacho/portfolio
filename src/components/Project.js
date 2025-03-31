@@ -28,7 +28,7 @@ function Project() {
                 </Carousel>
             </Box>
             <Typography variant="body1">{project.description}</Typography>
-            { project.url && <Button sx={{ background: "linear-gradient(135deg, rgba(234,21,198,1) 0%, rgba(21,198,234,1) 50%, rgba(198,234,21,1) 100%);", boxShadow: 3, margin: "1rem" }} component={Link} href={ project.url } color={"black"}>Try it out!</Button>}
+            { project.url && <Button sx={{ background: "linear-gradient(135deg, rgba(234,21,198,1) 0%, rgba(21,198,234,1) 50%, rgba(198,234,21,1) 100%);", boxShadow: 3, margin: "1rem" }} component={Link} href={ project.url } color={"black"}>Check it out!</Button>}
         </Box>
     );
 }

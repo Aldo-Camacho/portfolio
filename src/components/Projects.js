@@ -11,7 +11,7 @@ function Projects() {
         <Box>
             <Typography variant="h2">My projects</Typography>
             <Box sx={{paddingTop:10}}>
-            <Carousel showMultiple={true} height={50}>
+            <Carousel showMultiple={true} height={50} interval={3000}>
                 { projects.map( project => (
                     <Card key={project.project}>
                         <Button sx={{ margin: "auto" }} component={Link} to={`/projects/${project.id}`}>

@@ -10,50 +10,47 @@ import KotlinIcon from "./icons/KotlinIcon";
 
 function Home() {
     return(
-        <Box>
-            <Typography variant="h2">Aldo Camacho</Typography>
-            <Typography variant="h4">Full-Stack Software Engineer</Typography>
-            <Typography variant="body1">I'm a pasionate engineer who wants to help people program their dreams</Typography>
+        <Box >
+            <Typography variant="h2">Full-Stack Software Engineer</Typography>
+            <Typography variant="body1">My name is Aldo Camacho. I'm a pasionate engineer who wants to help people program their dreams</Typography>
             <Typography variant="body1">Do you have any idea but don't know how to make it happen? I can program it for you!</Typography>
-            <Box sx={{display:"flex", justifyContent: "left", paddingTop: 8}}>
-                <List>
-                    <ListItem key={"header"}>
-                        <Typography variant="h6">My Skills:</Typography>
-                    </ListItem>
-                    <ListItem key={0}>
-                        <JavaIcon/>
-                        <Typography variant="body1">Java</Typography>
-                    </ListItem>
-                    <ListItem key={1}>
-                        <SpringBootIcon/>
-                        <Typography variant="body1">SpringBoot</Typography>
-                    </ListItem>
-                    <ListItem key={2}>
-                        <Javascript/>
-                        <Typography variant="body1">Javascript</Typography>
-                    </ListItem>
-                    <ListItem key={3}>
-                        <ReactIcon/>
-                        <Typography variant="body1">ReactJS and React Native</Typography>
-                    </ListItem>
-                    <ListItem key={4}>
-                        <PythonIcon/>
-                        <Typography variant="body1">Python</Typography>
-                    </ListItem>
-                    <ListItem key={5}>
-                        <PyTorchIcon/>
-                        <Typography variant="body1">Pytorch</Typography>
-                    </ListItem>
-                    <ListItem key={6}>
-                        <KotlinIcon/>
-                        <Typography variant="body1">Kotlin</Typography>
-                    </ListItem>
-                    <ListItem key={7}>
-                        <Android/>
-                        <Typography variant="body1">Android</Typography>
-                    </ListItem>
-                </List>
-            </Box>
+            <List>
+                <ListItem key={"header"}>
+                    <Typography variant="h6">My Skills:</Typography>
+                </ListItem>
+                <ListItem key={0}>
+                    <JavaIcon/>
+                    <Typography variant="body1">Java</Typography>
+                </ListItem>
+                <ListItem key={1}>
+                    <SpringBootIcon/>
+                    <Typography variant="body1">SpringBoot</Typography>
+                </ListItem>
+                <ListItem key={2}>
+                    <Javascript/>
+                    <Typography variant="body1">Javascript</Typography>
+                </ListItem>
+                <ListItem key={3}>
+                    <ReactIcon/>
+                    <Typography variant="body1">ReactJS and React Native</Typography>
+                </ListItem>
+                <ListItem key={4}>
+                    <PythonIcon/>
+                    <Typography variant="body1">Python</Typography>
+                </ListItem>
+                <ListItem key={5}>
+                    <PyTorchIcon/>
+                    <Typography variant="body1">Pytorch</Typography>
+                </ListItem>
+                <ListItem key={6}>
+                    <KotlinIcon/>
+                    <Typography variant="body1">Kotlin</Typography>
+                </ListItem>
+                <ListItem key={7}>
+                    <Android/>
+                    <Typography variant="body1">Android</Typography>
+                </ListItem>
+            </List>
         </Box>
     );
 }

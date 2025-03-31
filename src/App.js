@@ -10,7 +10,6 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
-  console.log(process.env.PUBLIC_URL)
   return (
     <Box sx={{ textAlign: "center", background: "linear-gradient(135deg, rgba(234,21,198,1) 0%, rgba(21,198,234,1) 50%, rgba(198,234,21,1) 100%);", backgroundSize: "contain", backgroundPosition: "center", minHeight: "100vh" }}>
       <Router basename={ process.env.PUBLIC_URL }>

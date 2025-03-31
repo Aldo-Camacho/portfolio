@@ -5,7 +5,9 @@
         "project": "Jalasoft",
         "shortDescription": "I work in an outsourced project at the Jalasoft Company",
         "description": "I worked in a E-Procurement Web Application. This project was outsourced to Jalasoft and I was one of the engineers assigned to that team. Sadly, I cannot add images of this project due to an NDA", 
-        "img": ["jalasoftlogo.png"]
+        "thumbnail": "jalasoftlogo.png",
+        "img": ["jalasoftlogo.png"],
+        "stack": ["Java", "Spring", "JavaScript", "React"]
     },
     {
         "id":1,
@@ -13,7 +15,9 @@
         "project": "Fundacion Jala",
         "shortDescription": "I took a Comertial Software Development Specialization",
         "description": "A Comertial Software Development Specialization in which I worked on an internal project for Fundacion Jala. I developed a Micro Frontend with React JS using Material UI and a MicroServices based backend with SpringBoot in Java. Sadly, I cannot add images of this project due to an NDA",
-        "img": ["fundacionjalalogo.png"]  
+        "thumbnail": "fundacionjalalogo.png",
+        "img": ["fundacionjalalogo.png"],
+        "stack": ["Java", "Spring", "JavaScript", "React"] 
     },
     {
         "id":2,
@@ -22,6 +26,40 @@
         "shortDescription": "A small and badly coded Tic-tac-toe game for browser",
         "description": "A Small Tic-Tac-Toe implementation done during my Fundacion Jala type. Mainly done to play with CSS. (I agree, It's ugly)",
         "img": ["tic-tac-toe.png", "tic-tac-toe-1p.png", "tic-tac-toe-2p.png", "tic-tac-toe-custom-board.png"],
-        "url": "http://aldo-camacho.github.io/tic-tac-toe"
+        "thumbnail": "tic-tac-toe-thumbnail.png",
+        "url": "https://aldo-camacho.github.io/tic-tac-toe",
+        "stack": ["JavaScript"]
+    },
+    {
+        "id":3,
+        "dates": "2023 - 2023",
+        "project": "Period",
+        "shortDescription": "An Android Mobile App centered in menstrual health",
+        "description": "I worked as a Mobile Dev in this Android Mobile App centered in menstrual health. I did some refactoring and worked in the calendar view",
+        "img": ["period-start.png", "period-calendar.png", "period-record.png", "period-records.png"],
+        "thumbnail": "period-thumbnail.png",
+        "stack": ["Kotlin", "Android"]
+    },
+    {
+        "id":4,
+        "dates": "2025 - Present",
+        "project": "Deep Learning",
+        "shortDescription": "Some Deep Learning Projects",
+        "description": "Some DeepLearning projects I have written in Python. It's always in progress since I'm always learning new things",
+        "img": ["pytorch-logo.png"],
+        "thumbnail": "pytorch-logo.png",
+        "url": "https://github.com/Aldo-Camacho/python_deep_learning_projects",
+        "stack": ["Python", "PyTorch"]
+    },
+    {
+        "id":5,
+        "dates": "2021 - Present",
+        "project": "NN4J",
+        "shortDescription": "A small Neural Network implementation for Java",
+        "description": "As a free time project, NN4J is an attempt to implement a Torch inspired framework for Java.",
+        "img": ["github-logo.png"],
+        "thumbnail": "github-logo.png",
+        "url": "https://github.com/Aldo-Camacho/nn4j",
+        "stack": ["Java"]
     }
 ]

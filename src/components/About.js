@@ -1,9 +1,10 @@
 import React from "react";
-import { Box, List, ListItem, Typography } from "@mui/material";
+import { List, ListItem, Typography } from "@mui/material";
+import PageBox from "./PageBox";
 
 function About() {
     return (
-        <Box>
+        <PageBox>
             <Typography variant="h2">About me</Typography>
             <List>
                 <ListItem key={0}>
@@ -49,7 +50,7 @@ function About() {
                     <Typography variant="body1">To continue growing and making even better solutions to problems</Typography>
                 </ListItem>
             </List>
-        </Box>
+        </PageBox>
     );
 }
 

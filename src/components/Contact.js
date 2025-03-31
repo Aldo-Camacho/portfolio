@@ -1,11 +1,12 @@
 import React from "react";
-import { Box, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
+import PageBox from "./PageBox";
 
 function Contact() {
     return (
-        <Box>
+        <PageBox>
             <Typography variant="h2">Contact me</Typography>
-        </Box>
+        </PageBox>
     );
 }
 

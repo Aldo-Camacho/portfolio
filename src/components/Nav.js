@@ -3,12 +3,13 @@ import React, { useState
 } from "react";
 import { Box, Button, IconButton, Menu, MenuItem, useMediaQuery, useTheme } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu"
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 function Nav() {
     const sizeMatch = useMediaQuery(useTheme().breakpoints.up("md"))
     const [anchorEl, setAnchorEl] = useState(null);
     const navigate = useNavigate();
+    const { pathname } = useLocation();
 
     const handleMenu = (event) => {
         setAnchorEl(event.currentTarget);
@@ -41,13 +42,13 @@ function Nav() {
             target: "/contact"
         }
     ]
-
+    
     if (sizeMatch) {
         return (
             <Box>
                 {
                     links.map((link) => (
-                        <Button key={ link.target } color="black" component={Link} to={link.target}>{link.title}</Button>
+                        <Button sx={{ backgroundColor: pathname === link.target || (link.target !== "/" && pathname.includes(link.target)) ? "whitesmoke" : "transparent"}} key={ link.target } color="black" component={Link} to={link.target}>{link.title}</Button>
                     ))
                 }
             </Box>

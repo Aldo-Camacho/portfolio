@@ -7,17 +7,19 @@
         "description": "I worked in a E-Procurement Web Application. This project was outsourced to Jalasoft and I was one of the engineers assigned to that team. Sadly, I cannot add images of this project due to an NDA", 
         "thumbnail": "jalasoftlogo.png",
         "img": ["jalasoftlogo.png"],
-        "stack": ["Java", "Spring", "JavaScript", "React"]
+        "stack": ["Java", "Spring", "JavaScript", "React"],
+        "categories": ["Web"]
     },
     {
         "id":1,
         "dates": "2022 - 2022",
         "project": "Fundacion Jala",
         "shortDescription": "I took a Comertial Software Development Specialization",
-        "description": "A Comertial Software Development Specialization in which I worked on an internal project for Fundacion Jala. I developed a Micro Frontend with React JS using Material UI and a MicroServices based backend with SpringBoot in Java. Sadly, I cannot add images of this project due to an NDA",
+        "description": "A Comercial Software Development Specialization in which I worked on an internal project for Fundacion Jala. I developed a Micro Frontend with React JS using Material UI and a MicroServices based backend with SpringBoot in Java. Sadly, I cannot add images of this project due to an NDA",
         "thumbnail": "fundacionjalalogo.png",
         "img": ["fundacionjalalogo.png"],
-        "stack": ["Java", "Spring", "JavaScript", "React"] 
+        "stack": ["Java", "Spring", "JavaScript", "React"],
+        "categories": ["Web"] 
     },
     {
         "id":2,
@@ -28,7 +30,8 @@
         "img": ["tic-tac-toe.png", "tic-tac-toe-1p.png", "tic-tac-toe-2p.png", "tic-tac-toe-custom-board.png"],
         "thumbnail": "tic-tac-toe-thumbnail.png",
         "url": "https://aldo-camacho.github.io/tic-tac-toe",
-        "stack": ["JavaScript"]
+        "stack": ["JavaScript"],
+        "categories": ["Web"]
     },
     {
         "id":3,
@@ -38,7 +41,8 @@
         "description": "I worked as a Mobile Dev in this Android Mobile App centered in menstrual health. I did some refactoring and worked in the calendar view",
         "img": ["period-start.png", "period-calendar.png", "period-record.png", "period-records.png"],
         "thumbnail": "period-thumbnail.png",
-        "stack": ["Kotlin", "Android"]
+        "stack": ["Kotlin", "Android"],
+        "categories": ["Mobile"]
     },
     {
         "id":4,
@@ -49,7 +53,8 @@
         "img": ["pytorch-logo.png"],
         "thumbnail": "pytorch-logo.png",
         "url": "https://github.com/Aldo-Camacho/python_deep_learning_projects",
-        "stack": ["Python", "PyTorch"]
+        "stack": ["Python", "PyTorch"],
+        "categories": ["Machine Learning"]
     },
     {
         "id":5,
@@ -60,6 +65,7 @@
         "img": ["github-logo.png"],
         "thumbnail": "github-logo.png",
         "url": "https://github.com/Aldo-Camacho/nn4j",
-        "stack": ["Java"]
+        "stack": ["Java"],
+        "categories": []
     }
 ]

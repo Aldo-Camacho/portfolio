@@ -3,7 +3,7 @@ import { Box } from "@mui/material";
 
 function PageBox({children}) {
     return (
-       <Box height={"75vh"} display={"flex"} flexDirection={"column"} justifyContent={"space-evenly"}>
+       <Box maxHeight={"78vh"} display={"flex"} flexDirection={"column"} justifyContent={"space-between"}>
             {children}
        </Box>
     )

@@ -3,19 +3,18 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { ThemeProvider } from "@emotion/react";
-import { createTheme } from "@mui/material";
+import { createTheme, ThemeProvider } from "@mui/material";
 
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#15C6EA",
+      main: "#2E91D1",
     },
     secondary: {
-      main: "#EA15C6",
+      main: "#D12E91",
     },
     terciary: {
-      main: "#C6EA15",
+      main: "#91D12E",
     },
     black: {
       main: "#000000",
@@ -25,6 +24,13 @@ const theme = createTheme({
     },
   },
   components: {
+    MuiTypography: {
+      styleOverrides: {
+        root: {
+          fontFamily: "'Martel Sans', sans-serif",
+        }
+      }
+    },
     MuiButton: {
       styleOverrides: {
         root: {
@@ -65,8 +71,8 @@ const theme = createTheme({
     MuiPaper: {
       styleOverrides: {
         root: {
-          backgroundColor: "transparent",
-          position: "fixed",
+          backgroundColor: "whitesmoke",
+          position: "relative",
           bottom: 0,
           left: 0,
         }
@@ -106,7 +112,7 @@ const theme = createTheme({
       styleOverrides: {
         paper: {
           height: "fit-content",
-          background: "linear-gradient(135deg, rgba(234,21,198,1) 0%, rgba(21,198,234,1) 50%, rgba(198,234,21,1) 100%);",
+          backgroundColor: "whitesmoke",
           color: "black",
         }
       }
@@ -125,7 +131,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <App />
+        <App />
     </ThemeProvider>
   </React.StrictMode>
 );

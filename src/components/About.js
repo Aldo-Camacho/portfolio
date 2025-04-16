@@ -7,11 +7,11 @@ import TargetIcon from "./icons/TargetIcon";
 function About() {
     return (
         <PageBox>
-            <Paper sx={{ borderRadius: 8, width: "95vw", alignSelf: "center", margin: 8, paddingY: 4  }}>
+            <Paper sx={{ width: "100vw", alignSelf: "center", margin: 0, paddingY: 4  }}>
                 <Typography variant="h4" >About me</Typography>
                 <Typography variant="body1" >Know me better!</Typography>
             </Paper>
-            <Paper sx={{ borderRadius: 8, width: "95vw", alignSelf: "center", display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center", margin: "auto", marginTop: 2, marginBottom:8  }}>
+            <Paper sx={{ borderRadius: 8, width: "95vw", alignSelf: "center", display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center", margin: "auto", marginTop: 8, marginBottom: 4 }}>
                 <Box sx={{ paddingX: 8, paddingY: 2 }}>
                     <School/>
                     <Typography variant="h6">Education</Typography>
@@ -25,7 +25,7 @@ function About() {
                 </ListItem>
             </List>
             </Paper>
-            <Paper sx={{ borderRadius: 8, width: "95vw", alignSelf: "center", margin: "auto", marginTop: 2, marginBottom:8 , display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center" }}>
+            <Paper sx={{ borderRadius: 8, width: "95vw", alignSelf: "center", margin: "auto", marginTop: 4, marginBottom: 4 , display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center" }}>
                 <Box sx={{ paddingX: 8, paddingY: 2 }}>
                     <Interests/>
                     <Typography variant="h6">Interests</Typography>
@@ -45,7 +45,7 @@ function About() {
                 </ListItem>
                 </List>
             </Paper>
-            <Paper sx={{ borderRadius: 8, width: "95vw", alignSelf: "center", margin: "auto", marginTop: 2, marginBottom:8 , display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center" }}>
+            <Paper sx={{ borderRadius: 8, width: "95vw", alignSelf: "center", margin: "auto", marginTop: 4, marginBottom: 4 , display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center" }}>
                 <Box sx={{ paddingX: 8, paddingY: 2 }}>
                 <RocketLaunch/>
                 <Typography variant="h6">What is my Mision?</Typography>
@@ -59,7 +59,7 @@ function About() {
                 </ListItem>
                 </List>
             </Paper>
-            <Paper sx={{ borderRadius: 8, width: "95vw", alignSelf: "center", margin: "auto", marginTop: 2, marginBottom:8 , display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center" }}>
+            <Paper sx={{ borderRadius: 8, width: "95vw", alignSelf: "center", margin: "auto", marginTop: 4, marginBottom: 4, display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center" }}>
                 <Box sx={{ paddingX: 8, paddingY: 2 }}>
                 <TargetIcon/>
                 <Typography variant="h6">What is my Goal?</Typography>

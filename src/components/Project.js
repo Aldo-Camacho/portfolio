@@ -30,7 +30,7 @@ function Project() {
 
     return (
         <PageBox>
-            <Paper sx={{ borderRadius: 8, width: "95vw", alignSelf: "center", margin: 8, marginBottom: 4, padding: 4 }}>
+            <Paper sx={{ width: "100vw", alignSelf: "center", margin: 0, padding: 4 }}>
                 <Typography variant="h4">{project.project}</Typography>
                 <Typography variant="h6">{project.dates}</Typography>
             </Paper>
@@ -48,7 +48,7 @@ function Project() {
                     )) }
                 </Carousel>
             </Box>
-            <Paper sx={{ borderRadius: 8, width: "95vw", alignSelf: "center", margin: 4, padding: 4 }}>
+            <Paper sx={{ borderRadius: 8, width: "95vw", alignSelf: "center", margin: 0, padding: 4 }}>
             <Typography variant="body1">{project.description}</Typography>
             { project.stack && 
                 <Box display={"flex"} flexDirection={"row"} justifyContent={"center"} gap={"1vw"}>

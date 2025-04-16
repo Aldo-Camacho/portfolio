@@ -26,7 +26,7 @@
         "dates": "2022 - 2022",
         "project": "Tic-Tac-Toe",
         "shortDescription": "A small and badly coded Tic-tac-toe game for browser",
-        "description": "A Small Tic-Tac-Toe implementation done during my Fundacion Jala type. Mainly done to play with CSS. (I agree, It's ugly)",
+        "description": "A Small Tic-Tac-Toe implementation done during my Fundacion Jala time. Mainly done to play with CSS. (I agree, It's ugly)",
         "img": ["tic-tac-toe.png", "tic-tac-toe-1p.png", "tic-tac-toe-2p.png", "tic-tac-toe-custom-board.png"],
         "thumbnail": "tic-tac-toe-thumbnail.png",
         "url": "https://aldo-camacho.github.io/tic-tac-toe",

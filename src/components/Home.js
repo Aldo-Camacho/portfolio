@@ -79,7 +79,7 @@ const icons = {
 
 const CategoryCard = ({ category, sizeMatch }) => {
     return (
-    <Paper sx={{ display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center", borderRadius: 3, width: sizeMatch ? "25vw" : "80vw", alignSelf: "center", height: sizeMatch ? "40vh" : "fit-content" }}>
+    <Paper sx={{ display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center", borderRadius: 3, width: sizeMatch ? "25vw" : "80vw", alignSelf: sizeMatch ? "stretch" : "center", minHeight: "fit-content" }}>
         <Box sx={{ paddingX: 8, paddingY: 2 }}>
             {React.createElement(categoryIcons[category], { sx: { paddingY: 2, fontSize: 100 } , color: categoryColors[category] })}
         <Typography variant="h6" whiteSpace="nowrap">{category}</Typography>
@@ -104,14 +104,14 @@ function Home() {
 
     return(
         <PageBox>
-            <Paper sx={{ borderRadius: 8, width: "95vw", alignSelf: "center", margin: 8, paddingY: 4 }}>
+            <Paper sx={{ width: "100vw", alignSelf: "center", margin: 0, paddingY: 4 }}>
                 <Typography variant="h4">Full-Stack Software Engineer</Typography>
                 <Box>
                     <Typography variant="body1">My name is Aldo Camacho. I'm a pasionate engineer who wants to help people program their dreams</Typography>
                     <Typography variant="body1">Do you have any idea but don't know how to make it happen? I can program it for you!</Typography>
                 </Box>
             </Paper>
-            <Box display="flex" flexDirection={ sizeMatch ? "row" : "column" } alignContent="center" gap={2} margin="auto" marginTop={2} marginBottom={8} width="60vw">
+            <Box display="flex" flexDirection={ sizeMatch ? "row" : "column" } alignContent="center" gap={2} margin="auto" marginTop={8} marginBottom={8} width="60vw">
                 {
                     categories.map(category => (<CategoryCard key={category} category={category} sizeMatch={sizeMatch} />))
                 }

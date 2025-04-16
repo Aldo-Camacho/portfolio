@@ -6,7 +6,7 @@ const SERVICE_ID = "service_sxpg3gn";
 const TEMPLATE_ID = "template_u073bzs";
 const PUBLIC_KEY = "pRjl3ZBbI7ZHdEjku";
 
-function ContactForm() {
+function ContactForm({sx}) {
     const [ firstName, setFirstName ] = useState("");
     const [ lastName, setLastName ] = useState("");
     const [ email, setEmail ] = useState("");
@@ -29,7 +29,7 @@ function ContactForm() {
         )
     }
     return (
-        <Paper sx={{ borderRadius: 8, width: "95vw", alignSelf: "center", margin: 0 }}>
+        <Paper sx={{ borderRadius: 8, width: "95vw", alignSelf: "center", margin: 0, ...sx }}>
                 <Box margin={4} display="flex" flexDirection="column">
                     <Typography variant="h4" padding={4} paddingBottom={0}>Contact Me!</Typography>
                     <Typography variant="boddy1" padding={2} paddingBottom={2}>Please add your contact info and your idea so I can get back at you!</Typography>

@@ -12,11 +12,10 @@ function Projects() {
     const categorizedProjects = categoryFilter ? projects.filter(proj => proj.categories.includes(categoryFilter)) : projects;
     return(
         <PageBox>
-            <Paper sx={{ borderRadius: 8, width: "95vw", alignSelf: "center", margin: 8, paddingY: 4  }}>
+            <Paper sx={{ width: "100vw", alignSelf: "center", margin: 0, paddingY: 4  }}>
                 <Typography variant="h4">My Projects</Typography>
             </Paper>
-            <Box>
-            <Carousel showMultiple={true} height={50} >
+            <Carousel showMultiple={true} height={50} sx={{ marginTop: 8, marginBottom: 8 }}>
                 { categorizedProjects.map( project => (
                     <Card key={project.project}>
                         <Button sx={{ margin: "auto" }} component={Link} to={`/projects/${project.id}`}>
@@ -47,7 +46,6 @@ function Projects() {
                     )) }
             </Carousel>
             { categoryFilter && <Button sx={{ backgroundColor: "whitesmoke", boxShadow: 3, margin: "1rem", width: "fit-content", alignSelf: "center", border: 2, borderRadius: 3, margin: 2 }} onClick={() => {setSearchParams(searchParams.delete("category"))}}>See All Projects</Button> }
-            </Box>
         </PageBox>
     );
 }

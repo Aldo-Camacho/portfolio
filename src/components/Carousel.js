@@ -19,7 +19,7 @@ const useStyles = makeStyles({
         opacity: 1,
     }
 })
-function Carousel({ children, showMultiple, interval, height, width }) {
+function Carousel({ children, showMultiple, interval, height, width, sx }) {
     const classes = useStyles();
     const count = Children.count(children);
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -61,7 +61,7 @@ function Carousel({ children, showMultiple, interval, height, width }) {
 
     const childrenComponents = Children.toArray(children);
     return (
-        <Box sx={{ width: "100%", display: "flex", flexDirection: "row", justifyContent: "center" }}>
+        <Box sx={{ width: "100%", display: "flex", flexDirection: "row", justifyContent: "center", ...sx }}>
             { count > 1 && <IconButton onClick={previous}><ArrowCircleLeft/></IconButton>}
             <Box sx={{ display: "flex", flexDirection: "row", gap: "8px", paddingY: "8px" }}>
             { toShow.map( index => (

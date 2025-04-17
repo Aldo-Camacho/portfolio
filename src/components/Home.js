@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { Box, Button, List, ListItem, Paper, TextField, Typography, useMediaQuery, useTheme } from "@mui/material";
-import { Javascript, Android, Language, DeveloperMode } from "@mui/icons-material";
+import React from "react";
+import { Box, Button, List, ListItem, Paper, Typography, useMediaQuery, useTheme } from "@mui/material";
+import { Javascript, Android } from "@mui/icons-material";
 import PageBox from "./PageBox";
 import ReactIcon from "./icons/ReactIcon";
 import JavaIcon from "./icons/JavaIcon";
@@ -8,9 +8,9 @@ import SpringBootIcon from "./icons/SpringBootIcon";
 import PythonIcon from "./icons/PythonIcon";
 import PyTorchIcon from "./icons/PyTorchIcon";
 import KotlinIcon from "./icons/KotlinIcon";
-import MachineLearningIcon from "./icons/MachineLearningIcon";
 import { Link } from "react-router-dom";
 import ContactForm from "./ContactForm";
+import { Icon } from "@iconify/react/dist/iconify.js";
 
 const categories = [
     "Web",
@@ -19,9 +19,9 @@ const categories = [
 ]
 
 const categoryColors = {
-    "Web": "primary",
-    "Mobile": "secondary",
-    "Machine Learning": "terciary",
+    "Web": "#2E91D1",
+    "Mobile": "#D12E91",
+    "Machine Learning": "#91D12E",
 }
 
 const skills = [
@@ -60,9 +60,9 @@ const skills = [
 ]
 
 const categoryIcons = {
-    "Web": Language,
-    "Mobile": DeveloperMode,
-    "Machine Learning": MachineLearningIcon,
+    "Web": "mdi:web",
+    "Mobile": "healthicons:mobile-24px",
+    "Machine Learning": "fluent-mdl2:machine-learning",
 }
 
 const icons = {
@@ -81,7 +81,7 @@ const CategoryCard = ({ category, sizeMatch }) => {
     return (
     <Paper sx={{ display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center", borderRadius: 3, width: sizeMatch ? "25vw" : "80vw", alignSelf: sizeMatch ? "stretch" : "center", minHeight: "fit-content" }}>
         <Box sx={{ paddingX: 8, paddingY: 2 }}>
-            {React.createElement(categoryIcons[category], { sx: { paddingY: 2, fontSize: 100 } , color: categoryColors[category] })}
+            <Icon icon={categoryIcons[category]} height="80px" width="80px" color={categoryColors[category]} style={{ paddingY: "8px" }}/>
         <Typography variant="h6" whiteSpace="nowrap">{category}</Typography>
         </Box>
         <List sx={{ flexGrow: 1 }}>
@@ -94,7 +94,7 @@ const CategoryCard = ({ category, sizeMatch }) => {
             ))
             }
         </List>
-        <Button color={ categoryColors[category] } sx={{ border: 2, borderRadius: 3, margin: 2 }} component={Link} to={{ pathname: "/projects", search: `?category=${category}` }}><Typography variant="body2" sx={{ fontWeight: "bold" }}>See Projects</Typography></Button>
+        <Button sx={{ border: 2, borderRadius: 3, margin: 2, color: categoryColors[category] }} component={Link} to={{ pathname: "/projects", search: `?category=${category}` }}><Typography variant="body2" sx={{ fontWeight: "bold" }}>See Projects</Typography></Button>
     </Paper>
 )
 }

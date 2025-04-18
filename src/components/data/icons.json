@@ -1,0 +1,18 @@
+{
+    "TryHackMe": "simple-icons:tryhackme",
+    "GitHub": "qlementine-icons:github-16",
+    "LinkedIn": "ant-design:linkedin-outlined",
+    "Web": "mdi:web",
+    "Mobile": "healthicons:mobile-24px",
+    "Machine Learning": "fluent-mdl2:machine-learning",
+    "Java": "ant-design:java-outlined",
+    "Kotlin": "tabler:brand-kotlin",
+    "Android": "icon-park-outline:android",
+    "Python": "proicons:python",
+    "PyTorch": "simple-icons:pytorch",
+    "JavaScript": "ri:javascript-line",
+    "React": "lineicons:react",
+    "React Native": "lineicons:react",
+    "Spring": "simple-icons:spring",
+    "Rust": "devicon:rust"
+}

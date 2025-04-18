@@ -1,27 +1,11 @@
 import React from "react";
 import { Box, Button, Card, CardMedia, Link, Typography, Paper } from "@mui/material";
 import { useParams } from "react-router-dom";
-import { Javascript, Android } from "@mui/icons-material";
-import projects from "./data/projects.json";
-import Carousel from "./Carousel";
 import PageBox from "./PageBox";
-import JavaIcon from "./icons/JavaIcon";
-import KotlinIcon from "./icons/KotlinIcon";
-import PythonIcon from "./icons/PythonIcon";
-import PyTorchIcon from "./icons/PyTorchIcon";
-import ReactIcon from "./icons/ReactIcon";
-import SpringBootIcon from "./icons/SpringBootIcon";
-
-const icons = {
-    "Java": JavaIcon,
-    "Kotlin": KotlinIcon,
-    "Android": Android,
-    "Python": PythonIcon,
-    "PyTorch": PyTorchIcon,
-    "JavaScript": Javascript,
-    "React": ReactIcon,
-    "Spring": SpringBootIcon,
-}
+import Carousel from "./Carousel";
+import { Icon } from "@iconify/react/dist/iconify.js";
+import projects from "./data/projects.json";
+import icons from "./data/icons.json"
 
 function Project() {
     const {id} = useParams();
@@ -54,7 +38,7 @@ function Project() {
                 <Box display={"flex"} flexDirection={"row"} justifyContent={"center"} gap={"1vw"}>
                     {project.stack.map((tech) => (
                         <Box key={tech}>
-                            {React.createElement(icons[tech])}
+                            <Icon width="24px" height="24px" icon={icons[tech]}/>
                             <Typography variant="body1">{tech}</Typography>
                         </Box>
                     ))}

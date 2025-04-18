@@ -11,7 +11,7 @@ const useStyles = makeStyles({
         display: "flex",
         flexDirection: "column",
         justifyContent:"space-between",
-        borderRadius: 28,
+        borderRadius: 26,
         opacity: 0,
         transition: "opacity 0.1s !important",
     },
@@ -42,7 +42,6 @@ function Carousel({ children, showMultiple, interval, height, width, sx }) {
     const toShow = showMultiple && count > 1 && sizeMatch ? [getPreviousIndex(currentIndex), currentIndex, getNextIndex (currentIndex)] : [currentIndex];
     const mainWidth = width ? width : (sizeMatch ? 30 : 80);
     const mainHeight = height ? height : 40;
-    const secondaryHeight = 0.75 * mainHeight;
 
     const moveSelected = (index) => {
         setLoaded(false);

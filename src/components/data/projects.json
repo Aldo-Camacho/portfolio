@@ -67,5 +67,17 @@
         "url": "https://github.com/Aldo-Camacho/nn4j",
         "stack": ["Java"],
         "categories": []
+    },
+    {
+        "id":6,
+        "dates": "2021 - Present",
+        "project": "Rust Learning",
+        "shortDescription": "Some projects in Rust",
+        "description": "As a free time project, I sometimes program small snippets in Rust to practice my coding skills and learn another language.",
+        "img": ["github-logo.png"],
+        "thumbnail": "github-logo.png",
+        "url": "https://github.com/Aldo-Camacho/rust-learning",
+        "stack": ["Rust"],
+        "categories": []
     }
 ]

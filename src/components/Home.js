@@ -1,16 +1,10 @@
 import React from "react";
 import { Box, Button, List, ListItem, Paper, Typography, useMediaQuery, useTheme } from "@mui/material";
-import { Javascript, Android } from "@mui/icons-material";
-import PageBox from "./PageBox";
-import ReactIcon from "./icons/ReactIcon";
-import JavaIcon from "./icons/JavaIcon";
-import SpringBootIcon from "./icons/SpringBootIcon";
-import PythonIcon from "./icons/PythonIcon";
-import PyTorchIcon from "./icons/PyTorchIcon";
-import KotlinIcon from "./icons/KotlinIcon";
 import { Link } from "react-router-dom";
+import PageBox from "./PageBox";
 import ContactForm from "./ContactForm";
 import { Icon } from "@iconify/react/dist/iconify.js";
+import icons from "./data/icons.json"
 
 const categories = [
     "Web",
@@ -38,6 +32,10 @@ const skills = [
         category: "Web",
     },
     { 
+        title: "React",
+        category: "Web",
+    },
+    { 
         title: "Python",
         category: "Machine Learning",
     },
@@ -59,36 +57,19 @@ const skills = [
     },
 ]
 
-const categoryIcons = {
-    "Web": "mdi:web",
-    "Mobile": "healthicons:mobile-24px",
-    "Machine Learning": "fluent-mdl2:machine-learning",
-}
-
-const icons = {
-    "Java": JavaIcon,
-    "Kotlin": KotlinIcon,
-    "Android": Android,
-    "Python": PythonIcon,
-    "PyTorch": PyTorchIcon,
-    "JavaScript": Javascript,
-    "React": ReactIcon,
-    "React Native": ReactIcon,
-    "Spring": SpringBootIcon,
-}
 
 const CategoryCard = ({ category, sizeMatch }) => {
     return (
     <Paper sx={{ display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center", borderRadius: 3, width: sizeMatch ? "25vw" : "80vw", alignSelf: sizeMatch ? "stretch" : "center", minHeight: "fit-content" }}>
         <Box sx={{ paddingX: 8, paddingY: 2 }}>
-            <Icon icon={categoryIcons[category]} height="80px" width="80px" color={categoryColors[category]} style={{ paddingY: "8px" }}/>
+            <Icon icon={icons[category]} height="80px" width="80px" color={categoryColors[category]} style={{ paddingY: "8px" }}/>
         <Typography variant="h6" whiteSpace="nowrap">{category}</Typography>
         </Box>
         <List sx={{ flexGrow: 1 }}>
             {
             skills.filter((skill) => skill.category === category).map((skill) => (
                 <ListItem key={skill.title}>
-                    {React.createElement(icons[skill.title])}
+                    <Icon width="24px" height="24px" icon={icons[skill.title]}/>
                     <Typography variant="body1">{skill.title}</Typography>
                 </ListItem>
             ))

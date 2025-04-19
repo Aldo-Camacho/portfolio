@@ -8,8 +8,9 @@ function About() {
     return (
         <PageBox>
             <Paper sx={{ width: "100vw", alignSelf: "center", margin: 0, paddingY: 4  }}>
-                <Typography variant="h5" >About me</Typography>
-                <Typography variant="body1" >Know me better!</Typography>
+                <Typography variant="h4" >About me</Typography>
+                <Typography variant="body1" >Engineer solutions with Human Touch</Typography>
+                <Typography variant="body1" >Bionics taught me that the best solutions exist at the intersection of disciplines</Typography>
             </Paper>
             <Paper sx={{ borderRadius: 8, width: "95vw", alignSelf: "center", display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "stretch", margin: "auto", marginTop: 8, marginBottom: 4, paddingY: 4, paddingX: 0 }}>
                 <Divider sx={{ borderColor: "#2E91D1", borderWidth: 1, width:"95%", paddingX: 0, margin: "auto" }} />

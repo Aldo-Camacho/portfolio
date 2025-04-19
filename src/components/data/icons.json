@@ -1,4 +1,8 @@
 {
+    "Home": "material-symbols:home-outline-rounded",
+    "My Projects": "material-symbols:code-rounded",
+    "About": "ix:about",
+    "Contact": "lucide:contact",
     "TryHackMe": "simple-icons:tryhackme",
     "GitHub": "qlementine-icons:github-16",
     "LinkedIn": "ant-design:linkedin-outlined",

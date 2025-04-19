@@ -117,6 +117,13 @@ const theme = createTheme({
         }
       }
     },
+    MuiDrawer: {
+      styleOverrides: {
+        paper: {
+          background: "linear-gradient(135deg, rgba(209,46,145,1) 0%, rgba(46,145,209,1) 50%, rgba(145,209,46,1) 100%);"
+        }
+      }
+    },
     MuiList: {
       styleOverrides: {
         root: {

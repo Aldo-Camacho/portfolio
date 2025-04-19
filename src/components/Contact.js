@@ -12,7 +12,7 @@ function Contact() {
                     <Typography variant="body1">Here are some ways you can contact me. Let me help you with your projects!</Typography>
                 </Box>
             </Paper>
-            <ContactForm sx={{ margin: 8 }}/>
+            <ContactForm hideSubtitle sx={{ margin: 8 }}/>
         </PageBox>
     );
 }

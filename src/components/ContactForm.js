@@ -7,14 +7,13 @@ const TEMPLATE_ID = "template_u073bzs";
 const PUBLIC_KEY = "pRjl3ZBbI7ZHdEjku";
 
 function ContactForm({sx}) {
-    const [ firstName, setFirstName ] = useState("");
-    const [ lastName, setLastName ] = useState("");
+    const [ fullName, setFullName ] = useState("");
     const [ email, setEmail ] = useState("");
     const [ message, setMessage ] = useState("");
 
     const sendForm = () => {
         const templateParams = {
-            name: `${ firstName } ${ lastName }`,
+            name: fullName,
             time: new Date(Date.now()).toString(),
             email: email,
             message: message,
@@ -33,13 +32,10 @@ function ContactForm({sx}) {
                 <Box margin={4} display="flex" flexDirection="column">
                     <Typography variant="h4" padding={4} paddingBottom={0}>Contact Me!</Typography>
                     <Typography variant="boddy1" padding={2} paddingBottom={2}>Please add your contact info and your idea so I can get back at you!</Typography>
-                    <Box display="flex" flexDirection="row">
-                        <TextField onChange={(event) => {setFirstName(event.target.value)}} label="First Name"/>
-                        <TextField onChange={(event) => {setLastName(event.target.value)}} label="Last Name"/>
-                    </Box>
-                    <TextField onChange={(event) => {setEmail(event.target.value)}} label="Email"/>
-                    <TextField multiline onChange={(event) => {setMessage(event.target.value)}} minRows={2} label="Message"/>
-                    <Button onClick={sendForm}>Send!</Button>
+                    <TextField onChange={(event) => {setFullName(event.target.value)}} label="Full Name" margin="normal" required/>
+                    <TextField type="email" onChange={(event) => {setEmail(event.target.value)}} label="Email" margin="normal" required/>
+                    <TextField multiline onChange={(event) => {setMessage(event.target.value)}} minRows={2} label="Message" margin="normal" required/>
+                    <Button sx={{ border: 2, borderRadius: 3, margin: 2, width: "fit-content", alignSelf: "center" }} onClick={sendForm}>Send!</Button>
                 </Box>
             </Paper>
     );

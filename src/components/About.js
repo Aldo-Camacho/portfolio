@@ -11,11 +11,11 @@ function About() {
                 <Typography variant="h5" >About me</Typography>
                 <Typography variant="body1" >Know me better!</Typography>
             </Paper>
-            <Paper sx={{ borderRadius: 8, width: "90vw", alignSelf: "center", display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center", margin: "auto", marginTop: 8, marginBottom: 4, padding: 4 }}>
-                <Divider sx={{ borderColor: "#2E91D1", borderWidth: 1, alignSelf:"flex-start", width:"95%", paddingX: 4 }} />
-                <Typography variant="body1" alignSelf="flex-start" color="primary" >Education</Typography>
-                <Box width="100%" display="flex" flexDirection="row" justifyContent="left" paddingBottom={4}>
-                    <Box sx={{ paddingRight: 8, paddingY: 0, alignSelf:"flex-start" }}>
+            <Paper sx={{ borderRadius: 8, width: "95vw", alignSelf: "center", display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "stretch", margin: "auto", marginTop: 8, marginBottom: 4, paddingY: 4, paddingX: 0 }}>
+                <Divider sx={{ borderColor: "#2E91D1", borderWidth: 1, width:"95%", paddingX: 0, margin: "auto" }} />
+                <Typography width="95%" margin="auto" textAlign="left" variant="body1" color="primary" >Education</Typography>
+                <Box display="flex" flexDirection="row" justifyContent="left" paddingBottom={4}>
+                    <Box sx={{ paddingX: 8, paddingY: 0, alignSelf:"flex-start" }}>
                         <Icon icon="qlementine-icons:education-16" color="#2E91D1" width="80px" height="80px"/>
                     </Box>
                     <List >
@@ -31,10 +31,10 @@ function About() {
                     <Typography variant="body1" textAlign="left" paddingX={6} >Hands on experience in Hardware and Software prototyping and design </Typography>
                     </List>
                 </Box>
-                <Divider sx={{ borderColor: "#D12E91", borderWidth: 1, alignSelf:"flex-start", width:"95%", paddingX: 4 }} />
-                <Typography variant="body1" alignSelf="flex-start" color="secondary" >Interests and Expertise</Typography>
-                <Box width="100%" display="flex" flexDirection="row" justifyContent="left" paddingBottom={4}>
-                    <Box sx={{ paddingRight: 8, paddingY: 0, alignSelf:"flex-start" }}>
+                <Divider sx={{ borderColor: "#D12E91", borderWidth: 1, width:"95%", paddingX: 0, margin: "auto" }} />
+                <Typography width="95%" margin="auto" textAlign="left" variant="body1" alignSelf="flex-start" color="secondary" >Interests and Expertise</Typography>
+                <Box display="flex" flexDirection="row" justifyContent="left" paddingBottom={4}>
+                    <Box sx={{ paddingX: 8, paddingY: 0, alignSelf:"flex-start" }}>
                         <Icon icon="material-symbols:interests-outline-rounded" color="#D12E91" width="80px" height="80px"/>
                     </Box>
                     <List>
@@ -60,10 +60,10 @@ function About() {
                     <Typography variant="body1" textAlign="left" paddingX={6} >More like: "A FULL stack engineer with experience on the tools needed to get the job done"</Typography>
                     </List>
                 </Box>
-                <Divider sx={{ borderColor: "#91D12E", borderWidth: 1, alignSelf:"flex-start", width:"95%", paddingX: 4 }} />
-                <Typography variant="body1" alignSelf="flex-start" color="terciary" >My mission</Typography>
-                <Box width="100%" display="flex" flexDirection="row" justifyContent="left" paddingBottom={4}>
-                    <Box sx={{ paddingRight: 8, paddingY: 0, alignSelf:"flex-start" }}>
+                <Divider sx={{ borderColor: "#91D12E", borderWidth: 1, width:"95%", paddingX: 0, margin: "auto" }} />
+                <Typography width="95%" margin="auto" textAlign="left" variant="body1" alignSelf="flex-start" color="terciary" >My mission</Typography>
+                <Box display="flex" flexDirection="row" justifyContent="left" paddingBottom={4}>
+                    <Box sx={{ paddingX: 8, paddingY: 0, alignSelf:"flex-start" }}>
                         <Icon icon="charm:rocket" color="#91D12E" width="80px" height="80px"/>
                     </Box>
                     <List>
@@ -80,10 +80,10 @@ function About() {
                     </ListItem>
                     </List>
                 </Box>
-                <Divider sx={{ borderColor: "#2E91D1", borderWidth: 1, alignSelf:"flex-start", width:"95%", paddingX: 4 }} />
-                <Typography variant="body1" alignSelf="flex-start" color="primary" >Interests and Expertise</Typography>
-                <Box width="100%" display="flex" flexDirection="row" justifyContent="left" paddingBottom={4}>
-                    <Box sx={{ paddingRight: 8, paddingY: 0, alignSelf:"flex-start" }}>
+                <Divider sx={{ borderColor: "#2E91D1", borderWidth: 1, width:"95%", paddingX: 0, margin: "auto" }} />
+                <Typography width="95%" margin="auto" textAlign="left" variant="body1" alignSelf="flex-start" color="primary" >Interests and Expertise</Typography>
+                <Box display="flex" flexDirection="row" justifyContent="left" paddingBottom={4}>
+                    <Box sx={{ paddingX: 8, paddingY: 0, alignSelf:"flex-start" }}>
                         <Icon icon="octicon:goal-16" color="#2E91D1" width="80px" height="80px"/>
                     </Box>
                     <List>
@@ -94,7 +94,7 @@ function About() {
                     <Typography variant="body1" textAlign="left" paddingX={6} >How? By delivering tobust, creative and user centric systems and leveling up every project</Typography>
                     </List>
                 </Box>
-                <Button sx={{ border: 2, borderRadius: 3, margin: 2 }} color="secondary" component={Link} to="/contact">Contact me!</Button>
+                <Button sx={{ border: 2, borderRadius: 3, margin: 2, width: "fit-content", alignSelf: "center" }} color="secondary" component={Link} to="/contact">Contact me!</Button>
             </Paper>
         </PageBox>
     );
